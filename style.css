@@ -1,18 +1,31 @@
 *{
+    font-family: sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+section{
+    padding:100px 0;
+}
+
 .main .title{
     font-size: 16px;
     color: #754d05;
     font-weight: 700;
+}
+.main h1{
+    color: #283891;
+}
+.main .para{
+   color: #253956;
+   font-weight: 500;
 }
  .content{
     background-color: #ffff;
     min-height: 736px;
     padding-top: 115px;
     padding-left: 147px;
+    box-shadow: 0 0 5px rgba(0,0,0,.16);
 }
 .main .row {
     background-image: url(./images/background.webp);
@@ -23,6 +36,7 @@
 }
 .main .para{
     position: relative;
+    width: fit-content;
 }
 .main .para:after{
     position: absolute;
@@ -31,7 +45,7 @@
     width: 73px;
     background-color: #e9901b;
     top: 41px;
-    left: 1px;
+    left: 0px;
 }
 .main .para:before{
     position: absolute;
@@ -39,10 +53,106 @@
     height: 1.2px;
     width: 213px;
     background-color: #50c5e6;
-    left: 27px;
-    top: 46px;
+    left: 0;
+    bottom: -23px;
 }
-.grey{
-    background-color: #c3cfd3;
+.main .demo{
+    background-color: #f7f7f7;
+    margin-top: 70px;
+    max-width: 562px;
+    
+}
+.main .item h4{
+    text-align: center;
+    font-size: 16px;
+    color: #26282b;
+    line-height: 25px;
+    padding-top: 50px;
+}
 
+.main .item .authorpart{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.main .item .author{
+    max-height: 77px;
+    max-width: 73px;
+}
+.main .item .name{
+    text-align: center;
+
+}
+.main .authorpart h5{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #754d05;
+    font-weight: 700;
+}
+.main .item h6{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #26282b;
+    line-height: 25px;
+    text-align: center;
+}
+
+.main h1{
+    position: relative;
+    width: fit-content;
+}
+.main h1::before{
+    position: absolute;
+    content: " ";
+    height: 3px;
+    width: 0;
+    background-color: #e9901b;
+    bottom: -3px;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+   
+   
+}
+.main h1:hover{
+    cursor: grab;
+}
+.main h1:hover::before{
+    width: 100%;
+   
+}
+.main .title{
+    position: relative;
+    width:fit-content;
+}
+.main .title::before{
+    position: absolute;
+    content: " ";
+    height: 3px;
+    width: 0;
+    background-color: #291be9;
+    bottom: -3px;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+.main .title:hover{
+    cursor:grab;
+    background-color: #93bbf7;
+
+}
+.main .title:hover::before{
+    width: 100%;
+
+}
+.history{
+    background-image: url(./images/Group\ 80447.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.history h4{
+    color: #000;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 15px 0;
 }
