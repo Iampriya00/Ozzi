@@ -5,7 +5,8 @@
     margin: 0;
 }
 section{
-    padding:100px 0;
+
+    padding: 100px 0;
 }
 
 .main .title{
@@ -155,4 +156,14 @@ section{
     font-weight: 900;
     font-size: 24px;
     margin: 15px 0;
+}
+.row .btn_1{
+    display: inline-block;
+    background-color: #5f3a03; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 }
