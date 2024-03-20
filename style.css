@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main .title{
+    font-size: 16px;
+    color: #754d05;
+    font-weight: 700;
+}
+ .content{
+    background-color: #ffff;
+    min-height: 736px;
+    padding-top: 115px;
+    padding-left: 147px;
+}
+.main .row {
+    background-image: url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 600px 900px;
+   
+}
+.main .para{
+    position: relative;
+}
+.main .para:after{
+    position: absolute;
+    content: " ";
+    height: 6px;
+    width: 73px;
+    background-color: #e9901b;
+    top: 41px;
+    left: 1px;
+}
+.main .para:before{
+    position: absolute;
+    content: " ";
+    height: 1.2px;
+    width: 213px;
+    background-color: #50c5e6;
+    left: 27px;
+    top: 46px;
+}
+.grey{
+    background-color: #c3cfd3;
+
+}
